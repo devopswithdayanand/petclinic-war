@@ -5,7 +5,7 @@ Running PetClinic Locally
 
 With Maven
 
-git clone https://github.com/spring-petclinic/spring-framework-petclinic.git
+git clone https://github.com/devopswithdayanand/petclinic-war.git
 cd spring-framework-petclinic
 mvn package
 
@@ -13,13 +13,13 @@ Deploy the generated WAR file to Tomcat:
 
 Copy the WAR file to Tomcat's webapps directory:
 
-cp target/spring-petclinic.war /path/to/tomcat/webapps/
+cp target/petclinic.war /path/to/tomcat/webapps/
 
 Start Tomcat:
 
 /path/to/tomcat/bin/startup.sh
 
-Access at: http://localhost:8080/spring-petclinic
+Access at: http://localhost:8080/petclinic
 
 Database Configuration
 
@@ -54,7 +54,7 @@ Eclipse / IntelliJ IDEA
 
 Setup
 
-Clone the repo: git clone https://github.com/spring-petclinic/spring-framework-petclinic.git
+Clone the repo: git clone https://github.com/devopswithdayanand/petclinic-war.git
 
 Open in IDE:
 
@@ -68,5 +68,5 @@ mvn package
 
 Deploy the WAR file to Tomcat as described in the Maven section.
 
-➡️ Visit: http://localhost:8080/spring-petclinic
+➡️ Visit: http://localhost:8080/petclinic
 
